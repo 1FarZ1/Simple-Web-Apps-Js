@@ -1,12 +1,10 @@
-
+//Counter App  logic
 
 
 
 
 let buttons = document.querySelectorAll('.btn');
 let count =document.getElementById('value');
-
-
 buttons.forEach(
 function(button){
 

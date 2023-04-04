@@ -9,7 +9,6 @@ buttons.forEach(
 function(button){
 
 button.addEventListener('click',function(e){
-    console.log(e.currentTarget.classList);
     let classes= e.currentTarget.classList;
   
    if(classes.contains('increase')){
